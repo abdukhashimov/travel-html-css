@@ -90,5 +90,117 @@ body {
   margin: 0 auto;
   padding-right: 15px;
   padding-left: 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* ========================================================================== */
+/* designing */
+/* ========================================================================== */
+.page {
+  margin-top: 135px;
+  margin-bottom: 135px;
+}
+
+#main_page {
+  margin-top: 70px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-rows: (1fr)[1];
+      grid-template-rows: repeat(1, 1fr);
+}
+
+#main_page > img {
+  width: 100%;
+  max-width: 687px;
+  height: auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.page__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.page__info h1 {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 125%;
+  color: #202336;
+  mix-blend-mode: normal;
+}
+
+.page__info form h4 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 27px;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.page__info form h4::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background: #202336;
+  border-radius: 4px;
+  bottom: 0;
+  left: 0;
+}
+
+.page__info form div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 35px;
+  grid-column-gap: 30px;
+  justify-items: stretch;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.page__info form button {
+  margin-top: 40px;
+  padding: 16px 60px;
+  background: #fb8f1d;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+.select {
+  padding: 21px 31px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 90%;
+  background-position-y: 50%;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

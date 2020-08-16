@@ -7,6 +7,9 @@
     <title>Travel Tour</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500;600;800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -30,36 +33,40 @@
             </nav>
         </div>
     </header>
-    <div class="page">
-        <h1>Explore and<br>Travel</h1>
-        <form action="">
-            <h4>Holiday finder</h4>
-            <select name="location" id="location">
-                <option disabled selected value="London">Location</option>
-                <option value="London">London</option>
-                <option value="Paris">Paris</option>
-                <option value="Japan">Japan</option>
-            </select>
-            <select name="location" id="location">
-                <option value="London">Activity</option>
-                <option value="Paris">Paris</option>
-                <option value="Japan">Japan</option>
-            </select>
-            <select name="location" id="location">
-                <option value="London">Grade</option>
-                <option value="Paris">Paris</option>
-                <option value="Japan">Japan</option>
-            </select>
-            <select name="location" id="location">
-                <option value="London">Date</option>
-                <option value="Paris">Paris</option>
-                <option value="Japan">Japan</option>
-            </select>
-            <button type="submit">Explore</button>
-        </form>
-        <img src="./images/illustration/main.svg" alt="illustration for the travelling">
-    </div>
     <div class="container">
+        <div class="page" id="main_page">
+            <div class="page__info">
+                <h1>Explore and<br>Travel</h1>
+                <form action="">
+                    <h4>Holiday finder</h4>
+                    <div>
+                        <select name="location" class="select">
+                            <option disabled selected value="London">Location</option>
+                            <option value="London">London</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                        <select name="location" class="select">
+                            <option value="London">Activity</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                        <select name="location" class="select">
+                            <option value="London">Grade</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                        <select name="location" class="select">
+                            <option value="London">Date</option>
+                            <option value="Paris">Paris</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                    </div>
+                    <button type="submit">Explore</button>
+                </form>
+            </div>
+            <img src="./images/illustration/main.svg" alt="illustration for the travelling">
+        </div>
         <div class="page">
             <div class="illustration">
                 <img src="./images/illustration/second.svg" alt="second illustration">
