@@ -175,37 +175,38 @@ body {
         width: 100%;
         max-width: 600px;
     }
-    .info {
-        width: 100%;
-        max-width: 450px;
-        h2 {
-            font-family: "Playfair Display";
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-            line-height: 139%x;
-            color: #000000;
-            mix-blend-mode: normal;
-            margin-bottom: 20px;
-        }
-        p {
-            font-family: "Mulish", sans-serif;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 17px;
-            line-height: 176%;
-            color: #7d7987;
-            mix-blend-mode: normal;
-            margin-bottom: 33px;
-        }
+}
 
-        button {
-            padding: 16px 40px;
-            background: #fb8f1d;
-            border-radius: 8px;
-            box-sizing: border-box;
-            border: none;
-        }
+.info {
+    width: 100%;
+    max-width: 450px;
+    h2 {
+        font-family: "Playfair Display";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 139%x;
+        color: #000000;
+        mix-blend-mode: normal;
+        margin-bottom: 20px;
+    }
+    p {
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 176%;
+        color: #7d7987;
+        mix-blend-mode: normal;
+        margin-bottom: 33px;
+    }
+
+    button {
+        padding: 16px 40px;
+        background: #fb8f1d;
+        border-radius: 8px;
+        box-sizing: border-box;
+        border: none;
     }
 }
 
@@ -278,4 +279,104 @@ body {
         color: #80918e;
         margin: 0px;
     }
+}
+
+/* ========================================================================== */
+/* The fours section */
+/* ========================================================================== */
+
+#page__fourth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stories {
+    @extend .destinations;
+    margin-bottom: 271px;
+}
+
+.stories__item {
+    max-width: 272px;
+    img {
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+        max-height: 230px;
+        filter: none;
+    }
+
+    h4 {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 30px;
+        color: #000000;
+        mix-blend-mode: normal;
+    }
+    p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 26px;
+        color: #7d7987;
+        mix-blend-mode: normal;
+    }
+
+    a {
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 28px;
+        color: #fb8f1d;
+        text-decoration: none;
+    }
+}
+
+/* ========================================================================== */
+/* Author */
+/* ========================================================================== */
+#testimonial {
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-bottom: 60px;
+}
+
+#author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.author__info {
+    width: 100%;
+    max-width: 450px;
+    p {
+        font-family: "Mulish", sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        /* or 150% */
+
+        color: #000000;
+
+        mix-blend-mode: normal;
+    }
+}
+
+.author__image {
+    width: 384px;
+    height: 491px;
+    background: url("../images/testimonials/main.png");
+    background-position: center;
+    border-radius: 16px;
 }

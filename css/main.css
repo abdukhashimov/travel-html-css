@@ -221,12 +221,12 @@ body {
   max-width: 600px;
 }
 
-#page__second .info {
+.info {
   width: 100%;
   max-width: 450px;
 }
 
-#page__second .info h2 {
+.info h2 {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: bold;
@@ -237,7 +237,7 @@ body {
   margin-bottom: 20px;
 }
 
-#page__second .info p {
+.info p {
   font-family: "Mulish", sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -248,7 +248,7 @@ body {
   margin-bottom: 33px;
 }
 
-#page__second .info button {
+.info button {
   padding: 16px 40px;
   background: #fb8f1d;
   border-radius: 8px;
@@ -294,7 +294,7 @@ body {
   text-decoration: none;
 }
 
-.destinations {
+.destinations, .stories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -303,7 +303,7 @@ body {
           justify-content: space-between;
 }
 
-.destinations img {
+.destinations img, .stories img {
   border-radius: 10px;
   -webkit-filter: blur(1px);
           filter: blur(1px);
@@ -341,5 +341,118 @@ body {
   line-height: 160%;
   color: #80918e;
   margin: 0px;
+}
+
+/* ========================================================================== */
+/* The fours section */
+/* ========================================================================== */
+#page__fourth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stories {
+  margin-bottom: 271px;
+}
+
+.stories__item {
+  max-width: 272px;
+}
+
+.stories__item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  max-height: 230px;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.stories__item h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.stories__item p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  color: #7d7987;
+  mix-blend-mode: normal;
+}
+
+.stories__item a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 28px;
+  color: #fb8f1d;
+  text-decoration: none;
+}
+
+/* ========================================================================== */
+/* Author */
+/* ========================================================================== */
+#testimonial {
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 50px;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 60px;
+}
+
+#author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.author__info {
+  width: 100%;
+  max-width: 450px;
+}
+
+.author__info p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  /* or 150% */
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.author__image {
+  width: 384px;
+  height: 491px;
+  background: url("../images/testimonials/main.png");
+  background-position: center;
+  border-radius: 16px;
 }
 /*# sourceMappingURL=main.css.map */
