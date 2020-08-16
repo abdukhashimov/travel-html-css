@@ -203,4 +203,143 @@ body {
   padding: 1rem;
   padding-right: 2rem;
 }
+
+#page__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#page__second img {
+  width: 100%;
+  max-width: 600px;
+}
+
+#page__second .info {
+  width: 100%;
+  max-width: 450px;
+}
+
+#page__second .info h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 139%x;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-bottom: 20px;
+}
+
+#page__second .info p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 176%;
+  color: #7d7987;
+  mix-blend-mode: normal;
+  margin-bottom: 33px;
+}
+
+#page__second .info button {
+  padding: 16px 40px;
+  background: #fb8f1d;
+  border-radius: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+}
+
+#page__third {
+  padding: 0 40px;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top h2 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 139%;
+  color: #000000;
+  mix-blend-mode: normal;
+}
+
+.top a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 353%;
+  color: #fb8f1d;
+  mix-blend-mode: normal;
+  text-decoration: none;
+}
+
+.destinations {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.destinations img {
+  border-radius: 10px;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.destination__card {
+  position: relative;
+}
+
+.name {
+  position: absolute;
+  bottom: 0;
+  left: -2px;
+  border: none;
+  background: #fff;
+  border-radius: 0px 6px 0px 0px;
+  padding: 11px 20px 5px 5px;
+}
+
+.name h5 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 147%;
+  color: #042521;
+  margin: 0px;
+}
+
+.name p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 160%;
+  color: #80918e;
+  margin: 0px;
+}
 /*# sourceMappingURL=main.css.map */
